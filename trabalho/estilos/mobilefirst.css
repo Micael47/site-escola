@@ -68,9 +68,18 @@ section > article > p {
 }
 
 .imagem {
-    width: 300px;
+    width: 400px;
     height: 260px;
     background: gray url(../imagens/josearantes-frente.jpg) no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.imagem2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: gray url(../imagens/equipeja.jpg) no-repeat;
     background-position: center center;
     background-size: cover;
 }
@@ -91,7 +100,7 @@ footer > p {
 
 
 footer > a > img {
-    height: 40px;
+    height: 35px;
     width: 100%;
     border-radius: 50%;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);

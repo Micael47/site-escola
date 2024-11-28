@@ -54,6 +54,9 @@ nav > ul > li > a:hover {
     transition: 0.3s ease;
 }
 
+main {
+}
+
 section > article {
     display: flex;
     flex-direction: column;

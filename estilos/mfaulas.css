@@ -31,29 +31,29 @@ header > h1 {
     transform: translate(-50%, -50%);
 }
 
-nav {
+menu{
     background-color: rgb(63, 133, 63);
-    height: 25px;
-    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
-    text-align: center;
-    border-bottom: 1px solid rgba(43, 92, 43, 0.274);
 }
 
-nav > ul > li {
-    display: inline;
-}
-
-nav > ul > li > a {
-    color: black;
-    text-decoration: none;
-    margin: 10px;
-    font-size: 1.1rem;
-    padding: 10px;
-}
-
-nav > ul > li > a:hover {
+span#burguer{
+    background-color: rgb(63, 133, 63);
+    display: block;
     color: white;
-    transition: 0.3s ease;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;    
+}
+
+span#burguer:hover{
+    color: black;
+}
+
+menu > ul > li > a{
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: white;
+    border-top: 1px solid rgb(185, 255, 212);
 }
 
 main {

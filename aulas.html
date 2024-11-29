@@ -4,19 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Aulas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/mfaulas.css">
 </head>
 <body>
     <header>
         <h1>E.E.B. Professor José Arantes</h1>
     </header>
-    <nav>
-        <ul>
-            <li><a href="index.html">Sobre</a></li>
-            <li><a href="aulas.html">Aulas</a></li>
-            <li><a href="faleconosco.html">Fale conosco</a></li>
-        </ul>
-    </nav>
+    <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="index.html">Sobre</a></li>
+                <li><a href="aulas.html">Aulas</a></li>
+                <li><a href="faleconosco.html">Fale conosco</a></li>
+            </ul>
+        </menu>
     <main>
         <section>
             <div class="serie" id="toggleTable">
@@ -193,6 +195,24 @@
                 }
             });
         });
+
+        function mudouTamanho() {
+            if (window.innerWidth >= 768) {
+                itens.style.display = 'block'
+            }
+            else {
+                itens.style.display = 'none'
+            }
+        }
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            }
+            else {
+                itens.style.display = 'block'
+            }
+        }
 
     </script>
 </body>

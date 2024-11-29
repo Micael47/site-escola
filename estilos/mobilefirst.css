@@ -94,16 +94,16 @@ section > article > p {
 }
 
 .imagem2 {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    background: gray url(../imagens/equipeja.jpg) no-repeat;
+    width: 500px;
+    height: 300px;
+    border-radius: 5px;
+    background: gray url(../imagens/equipe-jose-arantes.jpg) no-repeat;
     background-position: center center;
     background-size: cover;
 }
 
 footer {
-    background-color: rgb(113, 185, 113);
+    background-image: linear-gradient(to bottom, rgb(113, 185, 113), rgb(63, 133, 63));
     height: 150px;
     width: 100%;
     padding: 10px;

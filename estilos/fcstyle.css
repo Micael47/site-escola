@@ -116,9 +116,9 @@ h3 {
 }
 
 main > section.social-links > a {
-    margin-right: 15px;
+    margin-right: 10px;
     text-decoration: none;
-    color: #333;
+    color: #015aa3;
 }
 
 main > section.social-links > a:hover {
@@ -133,7 +133,7 @@ iframe {
 }
 
 footer {
-    background-color: rgb(113, 185, 113);
+    background-image: linear-gradient(to bottom, rgb(113, 185, 113), rgb(63, 133, 63));
     height: 150px;
     width: 100%;
     padding: 10px;

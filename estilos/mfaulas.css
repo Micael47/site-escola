@@ -136,7 +136,7 @@ td, th {
 }
 
 footer {
-    background-color: rgb(113, 185, 113);
+    background-image: linear-gradient(to bottom, rgb(113, 185, 113), rgb(63, 133, 63));
     height: 150px;
     width: 100%;
     padding: 10px;
